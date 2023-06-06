@@ -6,6 +6,17 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 1000px) {
+  .vl-top-right-header {
+    display: block;
+    margin: 0 auto;
+  }
+  #vl-site-branding {
+    width: 70%;
+  }
+}
+
+
 body {
     font-family: 'poppins', sans-serif;
     background: #0c1022;
