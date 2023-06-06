@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'poppins', sans-serif;
+    background: #0c1022;
+    color: #fff;
+}
+
+
+
+.about-content {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .about-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Optional: Add more styles based on your preference */
+
+  
+  
