@@ -1,0 +1,84 @@
+/* Reset default margin and padding for the entire page */
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f5f5f5;
+}
+
+/* Center the content within the projects section */
+.projects {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Style the project divs */
+.project {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Center the text within the logo and navbar links */
+.logo, .navbar a {
+    display: flex;
+    align-items: center;
+}
+
+/* Add some spacing and styling to the logo and navbar links */
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #333333;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #666666;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #000000;
+}
+
+/* Add some margin and styling to the header */
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
