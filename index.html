@@ -8,13 +8,23 @@
     <link rel="icon" href="Logo.ico" type="image/x-icon">
 	<link rel="canonical" href="https://portfolio-sk3017167-gmailcom.vercel.app" />
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="nav.css">
     <link href='boxicons-2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header class="header">
-        
         <a href="#" class="logo">Its Me</a>
-        <nav class="navbar">
+        <div class="main-menu-button" id="mainMenuButton">
+            <span class="menu-icon"></span>
+            <div class="mobile-navbar" id="mobileNavbar">
+                <a href="index.html" class="active">Home</a>
+                <a href="Skills.html">Skills</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Project.html">Projects</a>
+                <a href="About.html">About</a>
+            </div>
+        </div>
+        <nav class="navbar" id="navbar">
             <a href="index.html" class="active" style="--i:1;">Home</a>
             <a href="Skills.html" style="--i:3;">Skills</a>
             <a href="Contact.html" style="--i:5;">Contact</a>
@@ -22,9 +32,30 @@
             <a href="About.html" style="--i:2;">About</a>
         </nav>
     </header>
+
+    <!-- Rest of your HTML code -->
+
+    <script>
+        // JavaScript code for showing/hiding mobile navbar when main menu button is clicked
+
+        const mobileNavbar = document.getElementById('mobileNavbar');
+        const mainMenuButton = document.getElementById('mainMenuButton');
+        let isMobileNavbarVisible = false;
+
+        const toggleMobileNavbar = () => {
+            if (isMobileNavbarVisible) {
+                mobileNavbar.style.display = 'none';
+            } else {
+                mobileNavbar.style.display = 'block';
+            }
+            isMobileNavbarVisible = !isMobileNavbarVisible;
+        };
+
+        mainMenuButton.addEventListener('click', toggleMobileNavbar);
+    </script>
     <section class="home">
         <div class="home-sci">
-            <a href="https://www.facebook.com/Tech.Programing/"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.facebook.com/AliKhanjan.99/"><i class='bx bxl-facebook'></i></a>
             <a href="#"><i class='bx bxl-twitter'></i></a>
             <a href="https://www.linkedin.com/in/ali-khan-921b15250/"><i class='bx bxl-linkedin'></i></a>
         </div>

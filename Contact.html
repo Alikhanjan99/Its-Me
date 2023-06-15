@@ -4,12 +4,53 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact</title>
+        <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="Contact.css">
         <link href='boxicons-2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     </head>
 <body>
-    
+    <header class="header">
+        <a href="#" class="logo">Its Me</a>
+        <div class="main-menu-button" id="mainMenuButton">
+            <span class="menu-icon"></span>
+            <div class="mobile-navbar" id="mobileNavbar">
+                <a href="index.html" class="active">Home</a>
+                <a href="Skills.html">Skills</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Project.html">Projects</a>
+                <a href="About.html">About</a>
+            </div>
+        </div>
+        <nav class="navbar" id="navbar">
+            <a href="index.html" class="active" style="--i:1;">Home</a>
+            <a href="Skills.html" style="--i:3;">Skills</a>
+            <a href="Contact.html" style="--i:5;">Contact</a>
+            <a href="Project.html" style="--i:5">Projects</a>
+            <a href="About.html" style="--i:2;">About</a>
+        </nav>
+    </header>
+
+    <!-- Rest of your HTML code -->
+
+    <script>
+        // JavaScript code for showing/hiding mobile navbar when main menu button is clicked
+
+        const mobileNavbar = document.getElementById('mobileNavbar');
+        const mainMenuButton = document.getElementById('mainMenuButton');
+        let isMobileNavbarVisible = false;
+
+        const toggleMobileNavbar = () => {
+            if (isMobileNavbarVisible) {
+                mobileNavbar.style.display = 'none';
+            } else {
+                mobileNavbar.style.display = 'block';
+            }
+            isMobileNavbarVisible = !isMobileNavbarVisible;
+        };
+
+        mainMenuButton.addEventListener('click', toggleMobileNavbar);
+    </script>
     <section class="contact">
         <h2>Contact Us</h2>
         <form id="contact-form" method="POST" action="submit-form.php">
@@ -21,13 +62,12 @@
     </section>
     
 
-
 <div class="contact-info">
     <h2>Contact Information</h2>
     <ul>
-        <li>Email: Alikhan5644615@gmail.com</li>
-        <li>Phone: +92321925795</li>
-        <li>Location: Peshawar, Pakistan</li>
+        <li>Email: example@example.com</li>
+        <li>Phone: +123456789</li>
+        <li>Location: City, Country</li>
     </ul>
 </div> 
 </body>
