@@ -49,41 +49,7 @@ body {
 .navbar {
     display: flex;
 }
-/* Center the text within the logo and navbar links */
-.logo, .navbar a {
-    display: flex;
-    align-items: center;
-}
 
-/* Add some spacing and styling to the logo and navbar links */
-.logo {
-    font-weight: bold;
-    font-size: 24px;
-    color: #333333;
-    text-decoration: none;
-    margin-right: 20px;
-}
-
-.navbar a {
-    color: #666666;
-    text-decoration: none;
-    margin-right: 10px;
-    transition: color 0.3s ease;
-}
-
-.navbar a:hover {
-    color: #000000;
-}
-
-/* Add some margin and styling to the header */
-.header {
-    background-color: #ffffff;
-    padding: 20px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .header h2 {
     font-size: 28px;
