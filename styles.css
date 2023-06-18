@@ -58,7 +58,7 @@ body {
 .navbar a {
     display: inline-block;
     font-size: 18px;
-    color: #fff;
+    color: #0c1022;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -96,7 +96,7 @@ body {
     background: linear-gradient(45deg, #f06, #3cf);
     border-radius: 50%;
     font-size: 20px;
-    color: #fff;
+    color: #0c1022;
     text-decoration: none;
     margin: 10px;
     opacity: 0;
