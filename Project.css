@@ -46,6 +46,10 @@ body {
 .logo, .navbar a {
     display: flex;
     align-items: center;
+    background: linear-gradient(45deg, #f06, #3cf);
+    background: linear-gradient(45deg, #3cf, #f06);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 /* Add some spacing and styling to the logo and navbar links */
@@ -62,10 +66,18 @@ body {
     text-decoration: none;
     margin-right: 10px;
     transition: color 0.3s ease;
+    /* background: linear-gradient(45deg, #f06, #3cf);
+    background: linear-gradient(45deg, #3cf, #f06);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
 }
 
 .navbar a:hover {
     color: #000000;
+    /* background: linear-gradient(45deg, #f06, #3cf);
+    background: linear-gradient(45deg, #3cf, #f06);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
 }
 
 /* Add some margin and styling to the header */

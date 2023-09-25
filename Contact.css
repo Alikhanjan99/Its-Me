@@ -57,6 +57,20 @@ body {
     font-weight: 700;
     margin-bottom: 40px;
     color: #000;
+    background: linear-gradient(45deg, #f06, #3cf);
+    background: linear-gradient(45deg, #3cf, #f06);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+
+.logo, .navbar a {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg, #f06, #3cf);
+    background: linear-gradient(45deg, #3cf, #f06);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .contact input,
@@ -69,10 +83,22 @@ body {
     background: #fff;
     color: #000;
     font-size: 16px;
+    background: linear-gradient(45deg, #f06, #3cf);
+    background: linear-gradient(45deg, #3cf, #f06);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .contact textarea {
     height: 150px;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    background: linear-gradient(45deg, #f06, #3cf);
+    background: linear-gradient(45deg, #3cf, #f06);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .contact button {
